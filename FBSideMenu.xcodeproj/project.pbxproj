@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2175DA9231252D640C7B5B3B /* Pods_FBSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D17ECA6CD2191BCDF1202F2 /* Pods_FBSideMenu.framework */; };
+		53D453E91DD9B20800537B51 /* FBSideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D453E71DD9B20700537B51 /* FBSideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D453F11DD9B50000537B51 /* FBSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D453F01DD9B50000537B51 /* FBSideMenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DB476BB52FA1F5E61AFFCB9 /* Pods-FBSideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSideMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBSideMenu/Pods-FBSideMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		3D17ECA6CD2191BCDF1202F2 /* Pods_FBSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D453E41DD9B20700537B51 /* FBSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D453E71DD9B20700537B51 /* FBSideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSideMenu.h; sourceTree = "<group>"; };
+		53D453E81DD9B20800537B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D453F01DD9B50000537B51 /* FBSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSideMenuViewController.swift; sourceTree = "<group>"; };
+		DDD182D1E0D5EE05B584CBE4 /* Pods-FBSideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSideMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBSideMenu/Pods-FBSideMenu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D453E01DD9B20700537B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2175DA9231252D640C7B5B3B /* Pods_FBSideMenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B0DD8358B776CEF7B5D35C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DB476BB52FA1F5E61AFFCB9 /* Pods-FBSideMenu.debug.xcconfig */,
+				DDD182D1E0D5EE05B584CBE4 /* Pods-FBSideMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43BEEE40598C1B0E68816941 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D17ECA6CD2191BCDF1202F2 /* Pods_FBSideMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53D453DA1DD9B20700537B51 = {
+			isa = PBXGroup;
+			children = (
+				53D453E61DD9B20700537B51 /* FBSideMenu */,
+				53D453E51DD9B20700537B51 /* Products */,
+				28B0DD8358B776CEF7B5D35C /* Pods */,
+				43BEEE40598C1B0E68816941 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53D453E51DD9B20700537B51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D453E41DD9B20700537B51 /* FBSideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D453E61DD9B20700537B51 /* FBSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				53D453EF1DD9B40A00537B51 /* Classes */,
+				53D453E71DD9B20700537B51 /* FBSideMenu.h */,
+				53D453E81DD9B20800537B51 /* Info.plist */,
+			);
+			path = FBSideMenu;
+			sourceTree = "<group>";
+		};
+		53D453EF1DD9B40A00537B51 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53D453F01DD9B50000537B51 /* FBSideMenuViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53D453E11DD9B20700537B51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D453E91DD9B20800537B51 /* FBSideMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53D453E31DD9B20700537B51 /* FBSideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D453EC1DD9B20800537B51 /* Build configuration list for PBXNativeTarget "FBSideMenu" */;
+			buildPhases = (
+				0E4E3C7A8E9F4F1CF89273AD /* [CP] Check Pods Manifest.lock */,
+				53D453DF1DD9B20700537B51 /* Sources */,
+				53D453E01DD9B20700537B51 /* Frameworks */,
+				53D453E11DD9B20700537B51 /* Headers */,
+				53D453E21DD9B20700537B51 /* Resources */,
+				BCBA5382484D3C2440DA6D6E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSideMenu;
+			productName = FBSideMenu;
+			productReference = 53D453E41DD9B20700537B51 /* FBSideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D453DB1DD9B20700537B51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Xiang Li";
+				TargetAttributes = {
+					53D453E31DD9B20700537B51 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53D453DE1DD9B20700537B51 /* Build configuration list for PBXProject "FBSideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53D453DA1DD9B20700537B51;
+			productRefGroup = 53D453E51DD9B20700537B51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D453E31DD9B20700537B51 /* FBSideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D453E21DD9B20700537B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E4E3C7A8E9F4F1CF89273AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCBA5382484D3C2440DA6D6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBSideMenu/Pods-FBSideMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D453DF1DD9B20700537B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D453F11DD9B50000537B51 /* FBSideMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53D453EA1DD9B20800537B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53D453EB1DD9B20800537B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53D453ED1DD9B20800537B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB476BB52FA1F5E61AFFCB9 /* Pods-FBSideMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSideMenu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FB-Corp..FBSideMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53D453EE1DD9B20800537B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD182D1E0D5EE05B584CBE4 /* Pods-FBSideMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FBSideMenu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FB-Corp..FBSideMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D453DE1DD9B20700537B51 /* Build configuration list for PBXProject "FBSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D453EA1DD9B20800537B51 /* Debug */,
+				53D453EB1DD9B20800537B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D453EC1DD9B20800537B51 /* Build configuration list for PBXNativeTarget "FBSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D453ED1DD9B20800537B51 /* Debug */,
+				53D453EE1DD9B20800537B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D453DB1DD9B20700537B51 /* Project object */;
+}

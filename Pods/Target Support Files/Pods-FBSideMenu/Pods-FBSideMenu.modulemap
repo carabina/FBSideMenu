@@ -1,0 +1,6 @@
+framework module Pods_FBSideMenu {
+  umbrella header "Pods-FBSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
