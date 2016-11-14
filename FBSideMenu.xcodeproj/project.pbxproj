@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2175DA9231252D640C7B5B3B /* Pods_FBSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D17ECA6CD2191BCDF1202F2 /* Pods_FBSideMenu.framework */; };
 		53D453E91DD9B20800537B51 /* FBSideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D453E71DD9B20700537B51 /* FBSideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53D453F11DD9B50000537B51 /* FBSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D453F01DD9B50000537B51 /* FBSideMenuViewController.swift */; };
+		53D453F31DD9B6AF00537B51 /* FBSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D453F21DD9B6AF00537B51 /* FBSideMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		53D453E41DD9B20700537B51 /* FBSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D453E71DD9B20700537B51 /* FBSideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSideMenu.h; sourceTree = "<group>"; };
 		53D453E81DD9B20800537B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53D453F01DD9B50000537B51 /* FBSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSideMenuViewController.swift; sourceTree = "<group>"; };
+		53D453F21DD9B6AF00537B51 /* FBSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FBSideMenuViewController.swift; path = Classes/FBSideMenuViewController.swift; sourceTree = "<group>"; };
 		DDD182D1E0D5EE05B584CBE4 /* Pods-FBSideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBSideMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBSideMenu/Pods-FBSideMenu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +82,7 @@
 		53D453EF1DD9B40A00537B51 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				53D453F01DD9B50000537B51 /* FBSideMenuViewController.swift */,
+				53D453F21DD9B6AF00537B51 /* FBSideMenuViewController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D453F11DD9B50000537B51 /* FBSideMenuViewController.swift in Sources */,
+				53D453F31DD9B6AF00537B51 /* FBSideMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
